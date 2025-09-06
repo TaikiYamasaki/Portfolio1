@@ -1,123 +1,102 @@
-/* 基本設定 */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    line-height:1;
 }
 
-/* ヘッダー */
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
 }
 
-header .container {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav ul {
+    list-style:none;
 }
 
-header h1 {
-    font-size: 2rem;
+blockquote, q {
+    quotes:none;
 }
 
-header nav ul {
-    list-style: none;
-    display: flex;
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
 }
 
-header nav ul li {
-    margin-right: 20px;
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
 }
 
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
 }
 
-/* セクション */
-section {
-    padding: 40px 0;
-    background-color: white;
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
 }
 
-section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+del {
+    text-decoration: line-through;
 }
 
-section p {
-    font-size: 1rem;
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
 }
 
-/* ポートフォリオ */
-.project {
-    display: flex;
-    margin-bottom: 20px;
+table {
+    border-collapse:collapse;
+    border-spacing:0;
 }
 
-.project img {
-    width: 200px;
-    height: 150px;
-    margin-right: 20px;
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
 }
 
-.project-info {
-    max-width: 600px;
-}
-
-.project-info h3 {
-    font-size: 1.5rem;
-}
-
-.project-info a {
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* フッター */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
-/* レスポンシブデザイン */
-@media (max-width: 768px) {
-    header .container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    header nav ul {
-        flex-direction: column;
-        margin-top: 20px;
-    }
-
-    header nav ul li {
-        margin-bottom: 10px;
-    }
-
-    .project {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .project img {
-        width: 100%;
-        height: auto;
-    }
+input, select {
+    vertical-align:middle;
 }
