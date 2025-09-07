@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header ul {
+    display: flex;
+}
+
+.container_skill {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container_work {
+    display: flex;
+    justify-content: space-around;
+}
+
