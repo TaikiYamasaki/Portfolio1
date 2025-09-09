@@ -9,8 +9,49 @@ a {
     text-decoration: none;
 }
 
+.header {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 1440px;
+    height: 110px;
+    z-index: 100;
+}
+
 .header ul {
     display: flex;
+    float: right;
+    padding-top: 30px;
+}
+
+.header li {
+    padding-right: 60px;
+}
+
+.header li a {
+    font-size: 40px;
+    color: white;
+}
+
+.header_img {
+    position: relative;
+}
+
+.header_img h1 {
+    font-size: 64px;
+    color: rgb(247, 247, 93);
+    text-shadow:
+        2px 2px 1px #330033,
+        -2px 2px 1px #330033,
+        2px -2px 1px #330033,
+        -2px -2px 1px #330033,
+        2px 0px 1px #330033,
+        0px 2px 1px #330033,
+        -2px 0px 1px #330033,
+        0px -2px 1px #330033;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+
 }
 
 .container_skill {
@@ -18,8 +59,32 @@ a {
     justify-content: space-around;
 }
 
+.skill {
+    text-align: center;
+}
+
+.skill img {
+    opacity: 0.7;
+}
+
+.skill p {
+    opacity: 0.6;
+}
+
 .container_work {
     display: flex;
     justify-content: space-around;
 }
 
+.work {
+    text-align: center;
+}
+
+.work p {
+    opacity: 0.6;
+}
+
+.url {
+    color: #000;
+    opacity: 0.6;
+}
