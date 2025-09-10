@@ -54,6 +54,55 @@ a {
 
 }
 
+.container_about_title {
+    position: relative;
+    height: 700px;
+}
+
+.about_title h2 {
+    font-size: 40px;
+    position: absolute;
+    top: 100px;
+    left: 537px;
+}
+
+.about_title h3 {
+    font-size: 20px;
+    position: absolute;
+    top: 150px;
+    left: 589px;
+}
+
+.about_title img {
+    position: absolute;
+    top: 80px;
+    left: 736px;
+}
+
+.container_skill_title {
+    position: relative;
+    height: 700px;
+}
+
+.skill_title h2 {
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 591px;
+}
+
+.skill_title h3 {
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+    left: 585px;
+}
+
+.skill_title img {
+    position: absolute;
+    left: 720px;
+}
+
 .container_skill {
     display: flex;
     justify-content: space-around;
@@ -61,6 +110,7 @@ a {
 
 .skill {
     text-align: center;
+   padding-top: 300px;
 }
 
 .skill img {
@@ -71,6 +121,31 @@ a {
     opacity: 0.6;
 }
 
+.container_work_title {
+    position: relative;
+    height: 700px;
+}
+
+.work_title h2 {
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 576px;
+}
+
+.work_title h3 {
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+    left: 535px;
+}
+
+.work_title img {
+    position: absolute;
+    top: 25px;
+    left: 730px;
+}
+
 .container_work {
     display: flex;
     justify-content: space-around;
@@ -78,6 +153,8 @@ a {
 
 .work {
     text-align: center;
+    padding-top: 300px;
+
 }
 
 .work p {
