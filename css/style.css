@@ -9,6 +9,8 @@ a {
     text-decoration: none;
 }
 
+/* ----------header------------------------------------------------------------------ */
+
 .header {
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
@@ -54,9 +56,30 @@ a {
 
 }
 
+/* ----------/header------------------------------------------------------------------ */
+
+
+/* ----------about------------------------------------------------------------------ */
+
 .container_about_title {
     position: relative;
     height: 700px;
+}
+
+.hr1 {
+    border-top: 5px solid #07ebfd;
+    width: 30%;
+    position: absolute;
+    top: 120px;
+    left: 48px;
+}
+
+.hr2 {
+    border-top: 5px solid #07ebfd;
+    width: 30%;
+    position: absolute;
+    top: 120px;
+    left: 886px;
 }
 
 .about_title h2 {
@@ -79,9 +102,53 @@ a {
     left: 736px;
 }
 
+.about_text {
+    position: absolute;
+    top: 250px;
+    left: 886px;
+}
+
+.about_text h2 {
+    font-size: 32px;
+    position: absolute;
+}
+
+.about_text h3 {
+    font-size: 16px;
+    opacity: 0.7;
+    position: absolute;
+    top: 18px;
+    left: 150px;
+}
+
+.about_text p {
+    margin-top: 50px;
+}
+
+/* ----------/about------------------------------------------------------------------ */
+
+/* ----------skill------------------------------------------------------------------ */
+
 .container_skill_title {
     position: relative;
     height: 700px;
+}
+
+.hr3 {
+    border-top: 5px solid #07ebfd;
+    width: 30%;
+    position: absolute;
+    top: 80px;
+    left: 48px;
+}
+
+.hr4 {
+    border-top: 5px solid #07ebfd;
+    width: 30%;
+    position: absolute;
+    top: 80px;
+    left: 886px;
+
 }
 
 .skill_title h2 {
@@ -110,7 +177,7 @@ a {
 
 .skill {
     text-align: center;
-   padding-top: 300px;
+    padding-top: 300px;
 }
 
 .skill img {
@@ -121,9 +188,29 @@ a {
     opacity: 0.6;
 }
 
+/* ----------/skill------------------------------------------------------------------ */
+
+/* ----------work------------------------------------------------------------------ */
+
 .container_work_title {
     position: relative;
-    height: 700px;
+    height: 720px;
+}
+
+.hr5 {
+    border-top: 5px solid #07ebfd;
+    width: 30%;
+    position: absolute;
+    top: 80px;
+    left: 48px;
+}
+
+.hr6 {
+    border-top: 5px solid #07ebfd;
+    width: 30%;
+    position: absolute;
+    top: 80px;
+    left: 886px;
 }
 
 .work_title h2 {
@@ -154,14 +241,47 @@ a {
 .work {
     text-align: center;
     padding-top: 300px;
-
 }
 
 .work p {
     opacity: 0.6;
+    margin-top: 20px;
 }
 
 .url {
     color: #000;
     opacity: 0.6;
 }
+
+/* ----------/work------------------------------------------------------------------ */
+
+/* ----------footer------------------------------------------------------------------ */
+
+footer {
+    position: relative;
+}
+
+.footer_title h2 {
+    font-size: 40px;
+    position: absolute;
+    top: 250px;
+    left: 641px;
+    color: white;
+}
+
+.footer_title h3 {
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    left: 660px;
+    color: white;
+}
+
+.footer_title img {
+    position: absolute;
+    top: 130px;
+    left: 658px;
+
+}
+
+/* ----------/footer------------------------------------------------------------------ */
