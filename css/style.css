@@ -32,6 +32,11 @@ a {
 .header li a {
     font-size: 40px;
     color: white;
+    display: inline-block;
+}
+
+.header li a :hover {
+    background-color: gold;
 }
 
 .header_img {
