@@ -7,20 +7,29 @@
     <title>taiki yamasaki portfolio</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/response.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap"
         rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 
 </head>
 
 <body>
 
     <div class="header">
+        <div id="drower_toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
         <nav>
             <img src="./img/icon.png" alt="icon">
-            <ul>
+            <ul class="global_nav">
                 <li><a href="#top">Top</a></li>
                 <li><a href="#about">About me</a></li>
                 <li><a href="#skill">Skill</a></li>
@@ -140,18 +149,18 @@
                 <h3>お問い合わせ</h3>
             </a>
         </div>
-        <img src="./img/footer.png" alt="footer_img">
+        <img class="back-img" src="./img/footer.png" alt="footer_img">
     </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
-        ScrollReveal({ reset: true });
-        ScrollReveal().reveal('.header_img', { delay: 200 });
-        ScrollReveal().reveal('.container_about_title', { delay: 200 });
-        ScrollReveal().reveal('.container_skill_title', { delay: 200 });
-        ScrollReveal().reveal('.container_work_title', { delay: 200 });
-        ScrollReveal().reveal('.footer_title', { delay: 200 });
-        ScrollReveal().reveal('footer img', { delay: 200 });
+        // ScrollReveal({ reset: true });
+        // ScrollReveal().reveal('.header_img', { delay: 200 });
+        // ScrollReveal().reveal('.container_about_title', { delay: 200 });
+        // ScrollReveal().reveal('.container_skill_title', { delay: 200 });
+        // ScrollReveal().reveal('.container_work_title', { delay: 200 });
+        // ScrollReveal().reveal('.footer_title', { delay: 200 });
+        // ScrollReveal().reveal('footer img', { delay: 200 });
     </script>
 </body>
 

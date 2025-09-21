@@ -22,11 +22,11 @@ a {
 .header ul {
     display: flex;
     float: right;
-    padding-top: 30px;
 }
 
+
 .header li {
-    padding-right: 60px;
+    padding: 30px;
 }
 
 .header li a {
@@ -59,6 +59,30 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
+@media screen and (max-width:768px) {
+    .header {
+        height: 50px;
+    }
+
+    .header img {
+        width: 3%;
+    }
+
+    .header_img h1 {
+        font-size: 30px;
+        top: 20%;
+        left: 3%;
+    }
+
+    .header_img img {
+        width: 100%;
+    }
+
+    .header ul {
+        display: none;
+    }
+}
+
 /* ----------/header------------------------------------------------------------------ */
 
 
@@ -66,13 +90,13 @@ a {
 
 .container_about_title {
     position: relative;
-    height: 700px;
+    height: 800px;
 }
 
 .container_about img {
     position: absolute;
-    top: 160px;
-    left: 100px;
+    top: 23%;
+    left: 8%;
     opacity: 0.9;
 }
 
@@ -80,42 +104,42 @@ a {
     border-top: 5px solid #07ebfd;
     width: 30%;
     position: absolute;
-    top: 120px;
-    left: 48px;
+    top: 17%;
+    left: 2%;
 }
 
 .hr2 {
     border-top: 5px solid #07ebfd;
     width: 30%;
     position: absolute;
-    top: 120px;
-    left: 886px;
+    top: 17%;
+    left: 63%;
 }
 
 .about_title h2 {
     font-size: 40px;
     position: absolute;
-    top: 100px;
-    left: 537px;
+    top: 13%;
+    left: 38%;
 }
 
 .about_title h3 {
     font-size: 20px;
     position: absolute;
-    top: 150px;
-    left: 589px;
+    top: 20%;
+    left: 41%;
 }
 
 .about_title img {
     position: absolute;
-    top: 80px;
-    left: 736px;
+    top: 10%;
+    left: 52%;
 }
 
 .about_text {
     position: absolute;
-    top: 250px;
-    left: 886px;
+    top: 35%;
+    left: 65%;
 }
 
 .about_text h2 {
@@ -135,6 +159,45 @@ a {
     margin-top: 50px;
 }
 
+@media screen and (max-width:768px) {
+    .container_about img {
+        width: 40%;
+        top: 30%;
+        left: 3%;
+    }
+
+    .about_title h2 {
+        font-size: 30PX;
+        left: 35%;
+    }
+
+    .about_title h3 {
+        left: 38%;
+    }
+
+    .about_title img {
+        display: none;
+    }
+
+    .about_text {
+        left: 55%;
+    }
+
+    .about_text h2 {
+        font-size: 20px;
+    }
+
+    .about_text h3 {
+        font-size: 10px;
+        left: 40%;
+    }
+
+    .about_text p {
+        font-size: 10px;
+    }
+
+}
+
 /* ----------/about------------------------------------------------------------------ */
 
 /* ----------skill------------------------------------------------------------------ */
@@ -148,31 +211,31 @@ a {
     border-top: 5px solid #07ebfd;
     width: 30%;
     position: absolute;
-    top: 80px;
-    left: 48px;
+    top: 10%;
+    left: 2%;
 }
 
 .hr4 {
     border-top: 5px solid #07ebfd;
     width: 30%;
     position: absolute;
-    top: 80px;
-    left: 886px;
+    top: 10%;
+    left: 63%;
 
 }
 
 .skill_title h2 {
     font-size: 40px;
     position: absolute;
-    top: 50px;
-    left: 591px;
+    top: 7%;
+    left: 41%;
 }
 
 .skill_title h3 {
     font-size: 20px;
     position: absolute;
-    top: 100px;
-    left: 585px;
+    top: 14%;
+    left: 40.5%;
 }
 
 .skill_title img {
@@ -187,7 +250,7 @@ a {
 
 .skill {
     text-align: center;
-    padding-top: 300px;
+    padding-top: 20%;
 }
 
 .skill img {
@@ -198,13 +261,36 @@ a {
     opacity: 0.6;
 }
 
+@media screen and (max-width:768px) {
+    
+    .skill_title img {
+        display: none;
+    }
+
+    .skill_title h2 {
+        font-size: 30px;
+    }
+
+    .container_skill {
+        display: inline-grid;
+        column-gap: 4em;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        width: 100%;
+    }
+
+    .skill {
+        padding-top: 70%;
+    }
+}
+
 /* ----------/skill------------------------------------------------------------------ */
 
 /* ----------work------------------------------------------------------------------ */
 
 .container_work_title {
     position: relative;
-    height: 720px;
+    height: 800px;
 }
 
 .hr5 {
@@ -212,7 +298,7 @@ a {
     width: 30%;
     position: absolute;
     top: 80px;
-    left: 48px;
+    left: 2%;
 }
 
 .hr6 {
@@ -220,21 +306,21 @@ a {
     width: 30%;
     position: absolute;
     top: 80px;
-    left: 886px;
+    left: 63%;
 }
 
 .work_title h2 {
     font-size: 40px;
     position: absolute;
-    top: 50px;
-    left: 576px;
+    top: 7%;
+    left: 40%;
 }
 
 .work_title h3 {
     font-size: 20px;
     position: absolute;
-    top: 100px;
-    left: 535px;
+    top: 13%;
+    left: 37%;
 }
 
 .work_title img {
@@ -250,7 +336,7 @@ a {
 
 .work {
     text-align: center;
-    padding-top: 300px;
+    padding-top: 20%;
 }
 
 .work p {
@@ -261,6 +347,31 @@ a {
 .url {
     color: #000;
     opacity: 0.6;
+}
+
+@media screen and (max-width:768px) {
+    .container_work_title {
+        margin-top: 150px;
+    }
+
+    .container_work {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .work_title h2 {
+        font-size: 30px;
+    }
+
+    .work_title h3 {
+        font-size: 15px;
+        left: 35%;
+    }
+
+    .work {
+        padding-top: 50px;
+        margin-top: 100px;
+    }
 }
 
 /* ----------/work------------------------------------------------------------------ */
@@ -274,16 +385,18 @@ footer {
 .footer_title h2 {
     font-size: 40px;
     position: absolute;
-    top: 250px;
-    left: 641px;
+    top: 59%;
+    left: 44.5%;
     color: white;
 }
 
 .footer_title h3 {
     font-size: 20px;
     position: absolute;
-    top: 300px;
-    left: 660px;
+   top: 70%;
+    left: 46%;
+   /* top: 300px; */
+    /* left: 660px; */
     color: white;
 }
 
@@ -293,5 +406,30 @@ footer {
     left: 658px;
 
 }
+
+@media screen and (max-width:768px) {
+    footer {
+        height: 500px;
+    }
+
+    .back-img {
+        width: 100%;
+        margin-top: 100%;
+    }
+
+    .footer_title h2 {
+        font-size: 20px;
+        top: 140%;
+    }
+
+    .footer_title h3 {
+
+    }
+    
+
+}
+
+
+
 
 /* ----------/footer------------------------------------------------------------------ */
