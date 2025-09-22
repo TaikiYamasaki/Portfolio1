@@ -49,6 +49,7 @@ a {
     position: absolute;
     top: 180px;
     left: 380px;
+    filter:drop-shadow(1px 2px 3px #07edfd8f);
 }
 
 .hr8 {
@@ -56,6 +57,7 @@ a {
     width: 3%;
     position: absolute;
     top: 180px;
+    filter:drop-shadow(1px 2px 3px #07edfd8f);
 }
 
 .contact_title h2 {
@@ -63,6 +65,7 @@ a {
     position: absolute;
     top: 160px;
     left: 192px;
+    text-shadow: 1px 2px 3px #808080;
 }
 
 .contact_title h3 {
@@ -70,12 +73,14 @@ a {
     position: absolute;
     top: 210px;
     left: 205px;
+    text-shadow: 1px 2px 3px #808080;
 }
 
 .contact_title img {
     position: absolute;
     top: 120px;
     left: 50px;
+    filter:drop-shadow(1px 2px 3px #a8a8a8);
 }
 
 .contact_text {

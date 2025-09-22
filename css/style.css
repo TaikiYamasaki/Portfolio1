@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #07ebfd;
+}
+
 /* ----------header------------------------------------------------------------------ */
 
 .header {
@@ -33,10 +37,6 @@ a {
     font-size: 40px;
     color: white;
     display: inline-block;
-}
-
-.header li a :hover {
-    background-color: gold;
 }
 
 .header_img {
@@ -106,6 +106,7 @@ a {
     position: absolute;
     top: 17%;
     left: 2%;
+    filter:drop-shadow(1px 2px 3px #07edfd8f);
 }
 
 .hr2 {
@@ -114,6 +115,7 @@ a {
     position: absolute;
     top: 17%;
     left: 63%;
+    filter:drop-shadow(1px 2px 3px #07edfd8f);
 }
 
 .about_title h2 {
@@ -121,6 +123,7 @@ a {
     position: absolute;
     top: 13%;
     left: 38%;
+    text-shadow: 1px 2px 3px #808080;
 }
 
 .about_title h3 {
@@ -128,12 +131,14 @@ a {
     position: absolute;
     top: 20%;
     left: 41%;
+    text-shadow: 1px 2px 3px #808080;
 }
 
 .about_title img {
     position: absolute;
     top: 10%;
     left: 52%;
+    filter:drop-shadow(1px 2px 3px #a8a8a8);
 }
 
 .about_text {
@@ -213,6 +218,7 @@ a {
     position: absolute;
     top: 10%;
     left: 2%;
+    filter:drop-shadow(1px 2px 3px #07edfd8f);
 }
 
 .hr4 {
@@ -221,6 +227,7 @@ a {
     position: absolute;
     top: 10%;
     left: 63%;
+    filter:drop-shadow(1px 2px 3px #07edfd8f);
 
 }
 
@@ -229,6 +236,7 @@ a {
     position: absolute;
     top: 7%;
     left: 41%;
+    text-shadow: 1px 2px 3px #808080;
 }
 
 .skill_title h3 {
@@ -236,11 +244,13 @@ a {
     position: absolute;
     top: 14%;
     left: 40.5%;
+    text-shadow: 1px 2px 3px #808080;
 }
 
 .skill_title img {
     position: absolute;
     left: 720px;
+    filter:drop-shadow(1px 2px 3px #a8a8a8);
 }
 
 .container_skill {
@@ -299,6 +309,7 @@ a {
     position: absolute;
     top: 80px;
     left: 2%;
+    filter:drop-shadow(1px 2px 3px #07edfd8f);
 }
 
 .hr6 {
@@ -307,6 +318,7 @@ a {
     position: absolute;
     top: 80px;
     left: 63%;
+    filter:drop-shadow(1px 2px 3px #07edfd8f);
 }
 
 .work_title h2 {
@@ -314,6 +326,7 @@ a {
     position: absolute;
     top: 7%;
     left: 40%;
+    text-shadow: 1px 2px 3px #808080;
 }
 
 .work_title h3 {
@@ -321,12 +334,14 @@ a {
     position: absolute;
     top: 13%;
     left: 37%;
+    text-shadow: 1px 2px 3px #808080;
 }
 
 .work_title img {
     position: absolute;
     top: 25px;
     left: 730px;
+    filter:drop-shadow(1px 2px 3px #a8a8a8);
 }
 
 .container_work {
@@ -388,6 +403,7 @@ footer {
     top: 59%;
     left: 44.5%;
     color: white;
+    text-shadow: 1px 2px 3px #808080;
 }
 
 .footer_title h3 {
@@ -398,6 +414,7 @@ footer {
    /* top: 300px; */
     /* left: 660px; */
     color: white;
+    text-shadow: 1px 2px 3px #808080;
 }
 
 .footer_title img {
