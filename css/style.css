@@ -448,10 +448,16 @@ footer {
 
     .footer_title h2 {
         color: black;
+        top: 90%;
+        left: 38%;
+        font-size: 20px;
     }
 
     .footer_title h3 {
         color: black;
+        top: 95%;
+        left: 37%;
+        font-size: 16px;
     }
 }
 
