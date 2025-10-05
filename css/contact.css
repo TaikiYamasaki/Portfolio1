@@ -23,7 +23,7 @@ a {
     position: fixed;
     width: 1440px;
     height: 110px;
-    z-index: 100;
+    z-index: 10;
 }
 
 .header img {
@@ -33,16 +33,24 @@ a {
 .header ul {
     display: flex;
     float: right;
-    padding-top: 30px;
 }
 
 .header li {
-    padding-right: 60px;
+    padding: 30px;
 }
 
 .header li a {
     font-size: 40px;
     color: white;
+    display: inline-block;
+    padding: 5px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+}
+
+.header li a:hover {
+    background-color: #58c6ff;
+    transition-duration: 0.3s;
 }
 
 @media screen and (max-width:768px) {
@@ -195,6 +203,14 @@ button {
     color: white;
     font-size: 24px;
     border-radius: 20px;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: orange;
+    border: #07ebfd;
+    color: white;
+    transition-duration: 0.2s;
 }
 
 .name_title h2 {
